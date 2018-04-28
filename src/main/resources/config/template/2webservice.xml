@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.tvc.ehl.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:setPassCarInfoImg>
+         <web:tgsj>${capDate}</web:tgsj>
+         <web:cltxzt>1</web:cltxzt>
+         <web:hphm>${carNum}</web:hphm>
+         <web:hpzl>${carType}</web:hpzl>
+         <web:xssd>${carSpeed}</web:xssd>
+         <web:hpys>${carNumColor}</web:hpys>
+         <web:cdbh>${carWayCode}</web:cdbh>
+         <web:cxfx>${carDirect}</web:cxfx>
+         <web:zpfx>1</web:zpfx>
+         <web:csys>${carColor}</web:csys>
+         <web:clpp>99</web:clpp>
+         <web:kkbh>${devChnId}</web:kkbh>
+         <web:sbbh>${devChnId}</web:sbbh>
+         <web:cpzb>0,0,0,0</web:cpzb>
+         <web:jsszb>0,0,0,0</web:jsszb>
+         <web:tplj1>${combinedPicUrl}</web:tplj1>
+         <web:tplj2>${carNumPic}</web:tplj2>
+         <web:tplj3></web:tplj3>
+      </web:setPassCarInfoImg>
+   </soapenv:Body>
+</soapenv:Envelope>
